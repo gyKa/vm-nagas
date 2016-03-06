@@ -1,0 +1,5 @@
+---
+- name: install php
+  apt: name=php5 update_cache=yes state=latest
+
+- include: configure.yml

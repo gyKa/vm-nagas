@@ -2,5 +2,8 @@
 - hosts: all
   become: yes
   become_method: sudo
+  vars_files:
+    - vars/all.yml
   roles:
     - apache
+    - php
