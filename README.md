@@ -5,6 +5,8 @@ Mostly using in development.
 
 ## Requirements
 
+* VirtualBox
+* Vagrant
 * Ansible
 
 ## Installation
